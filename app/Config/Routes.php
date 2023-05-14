@@ -37,7 +37,11 @@ $routes->get('/dashboard', 'Dashboard::index', ['filter' => 'dashboard']);
 $routes->post('/cekLogin', 'Login::login');
 $routes->post('/cekRegistrasi', 'Register::register');
 $routes->get('/jadwal', 'CekJadwal::index');
+$routes->get('/jenisbus', 'JenisBus::index');
+$routes->get('/pages/detail_bus', 'DetailBus::index');
 $routes->get('/reservasi', 'Reservasi::index');
+$routes->get('/pembayaran', 'Pembayaran::index');
+$routes->get('/pelanggan/ubahprofil', 'DataPelanggan::editData');      
 
 
 /*
