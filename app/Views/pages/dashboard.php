@@ -10,13 +10,13 @@
                 <!-- <h2 class="content-header-title float-start mb-2">Dashboard</h2> -->
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="card card-profile">
-                        <img src="<?= base_url() ?>/images/banner/banner-12.jpg" class="img-fluid card-img-top" alt="Profile Cover Photo" />
+                        <img src="<?= base_url() ?>/assets2/img/profile.png" class="img-fluid card-img-top" alt="Profile Cover Photo" />
                         <div class="card-body">
                             <div class="profile-image-wrapper">
                                 <div class="profile-image">
-                                    <div class="avatar">
+                                    <!-- <div class="avatar">
                                         <img src="<?= base_url() ?>/images/portrait/small/<?= session()->get('foto') ?>" alt="Profile Picture" />
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <h3><?= ucfirst(session()->nama_pendaftar) ?></h3>
@@ -24,7 +24,7 @@
                         </div>
                         <div class="card-footer">
                             <div class="d-grid col-12">
-                                <a href="<?= base_url('user/setting') ?>" class="btn btn-primary">
+                                <a href="<?= base_url('pelanggan/ubahprofil') ?>" class="btn btn-primary">
                                     <i data-feather="edit" class="font-medium-3 me-50"></i>
                                     <span class="fw-bold">Edit Profil</span>
                                 </a>

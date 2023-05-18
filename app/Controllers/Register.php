@@ -24,11 +24,17 @@ class Register extends BaseController{
     public function register(){
         //get method POST
         if ($this->request->getMethod() == 'post') {
+            // password 8 karakter 
+        // $validation = [
+        //     'password'=>'required|password_strength[8]'
+        // ];
+        
             // data username and password
         $nama = htmlspecialchars ($this->request->getPost('register_nama'));
         $username = htmlspecialchars ($this->request->getPost('register_username'));
         $email = htmlspecialchars ($this->request->getPost('register_email'));
         $password = htmlspecialchars (md5($this->request->getPost('register_password')));
+        $ulangi_password = htmlspecialchars (md5($this->request->getPost('register_ulangipassword')));
         $alamat = htmlspecialchars ($this->request->getPost('register_alamat'));
         $nomor_telepon = htmlspecialchars ($this->request->getPost('register_nomor_telepon'));
 
@@ -38,12 +44,15 @@ class Register extends BaseController{
             'username' => $username,
             'email' => $email,
             'password' => $password,
+            'ulangi_password' => $ulangi_password,
             'level_user' => 'Pelanggan',
             'alamat' => $alamat,
             'nomor_telepon' => $nomor_telepon
         ]);
+
         session()->setFlashdata('pesan', 'Selamat Anda Berhasil Registrasi');
         return redirect()->to(base_url('login'));
+
         }
        }
     }    

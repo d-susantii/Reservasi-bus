@@ -35,6 +35,10 @@ class User extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 62,
             ],
+            'ulangi_password' => [
+                'type' => 'VARCHAR',
+                'constraint' => 62,
+            ],
             'level_user' => [
                 'type' => 'ENUM',
                 'constraint' => ['Super Admin', 'Admin', 'Pelanggan'],

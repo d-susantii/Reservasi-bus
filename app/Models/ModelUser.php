@@ -17,6 +17,7 @@ class ModelUser extends Model
       'nomor_telepon',
       'username',
       'password',
+      'ulangi_password',
       'level_user',
       'email',
      ];

@@ -18,6 +18,7 @@ class User extends Seeder
             'password' => md5('12345'),
             'level_user' => 'Pelanggan'
         ];
+        
         $builder = $this->db->table('user');
 
         foreach ($data as $row) {

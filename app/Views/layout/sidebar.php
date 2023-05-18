@@ -8,7 +8,7 @@
           <div class="app-brand demo">
             <a href="index.html" class="app-brand-link">
               <span class="app-brand-logo demo">
-                <svg
+                <!-- <svg
                   width="25"
                   viewBox="0 0 25 42"
                   version="1.1"
@@ -60,7 +60,7 @@
                       </g>
                     </g>
                   </g>
-                </svg>
+                </svg> -->
               </span>
               <span class="app-brand-text demo menu-text fw-bolder ms-2">Dashboard</span>
             </a>
@@ -74,35 +74,41 @@
 
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
-            <li class="menu-item active">
+            <li class="menu-item <?php if (service('uri')->getSegment(1) == 'dashboard') echo 'active' ?>">
               <a href="<?= base_url('dashboard') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div>Dashboard</div>
               </a>
             </li>
 
-            
-            <li class="menu-item">
-              <a href="<?= base_url('jadwal') ?>" class="menu-link">
+            <li class="menu-item <?php if (service('uri')->getSegment(1) == 'reservasi') echo 'active' ?>">
+              <a href="<?= base_url('reservasi') ?>" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div>Reservasi</div>
+              </a>
+            </li>
+
+            <li class="menu-item <?php if (service('uri')->getSegment(1) == 'pembayaran') echo 'active' ?>">
+               <a href="<?= base_url('pembayaran') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div>Cek Jadwal</div>
+                <div>Pembayaran</div>
 
               </a>
               
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link">
+            <li class="menu-item <?php if (service('uri')->getSegment(1) == 'jenisbus') echo 'active' ?>">
+              <a href="<?= base_url('jenisbus') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
                 <div>Jenis-Jenis Bus</div>
               </a>
               
             
             <!-- Cards -->
-            <li class="menu-item">
+            <!-- <li class="menu-item <?php if (service('uri')->getSegment(1) == 'reservasi') echo 'active' ?>">
               <a href="<?= base_url('reservasi') ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
                 <div>Reservasi</div>
               </a>
-            </li>
+            </li> -->
             
         </aside>
         <!-- / Menu -->

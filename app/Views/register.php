@@ -72,10 +72,33 @@
                       class="form-control"
                       name="register_password"
                       placeholder="Masukkan Password Anda"
+                      minlength="8"
+                      required oninvalid="this.setCustomValidity('Password minimal 8 karakter')" oninput="this.setCustomValidity('Password minimal 8 karakter')" onchange="this.setCustomValidity('')"
                       autofocus
                       required
                        />
-                    
+                       
+                    <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
+                  </div>
+                  <div class="valid-feedback">Sudah Diisi</div>
+                  <div class="invalid-feedback">Harus Diisi</div>
+                </div>
+                
+                <div class="mb-3 form-password-toggle">
+                  <label class="form-label" for="password">Ulangi Password</label>
+                  <div class="input-group input-group-merge">
+                    <input
+                      type="password"
+                      id="password"
+                      class="form-control"
+                      name="register_ulangipassword"
+                      placeholder="Masukkan Password Anda"
+                      minlength="8"
+                      required oninvalid="this.setCustomValidity('Password minimal 8 karakter')" oninput="this.setCustomValidity('Password minimal 8 karakter')" onchange="this.setCustomValidity('')"
+                      autofocus
+                      required
+                       />
+                       
                     <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
                   </div>
                   <div class="valid-feedback">Sudah Diisi</div>

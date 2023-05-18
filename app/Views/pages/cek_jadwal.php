@@ -1,5 +1,5 @@
 <!-- Content wrapper -->
-<div class="content-wrapper">
+<!-- <div class="content-wrapper">
   <div class="col-lg-8 col-md-6 col-12">
     <div class="card">
       <div class="card-header">
@@ -96,4 +96,4 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->

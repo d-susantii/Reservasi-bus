@@ -15,6 +15,10 @@ class Bus extends Migration
                 'constraint' => 11,
                 'auto_increment' => TRUE,
             ],
+            'po_id' => [
+                'type' => 'INT',
+                'constraint' => 11,
+            ],
             'plat_nomor' => [
                 'type' => 'VARCHAR',
                 'constraint' => 11,
@@ -24,13 +28,16 @@ class Bus extends Migration
                 'constraint' => 20,
             ],
             'jumlah_kursi' => [
-                'type' => 'INT',
-                'constraint' => 2,
+                'type' => 'ENUM',
+                'constraint' => ['32', '50', '51', '60'],
             ]
             ]);
 
             //membuat primary key
             $this->forge->addKey('bus_id',true);
+
+            // membuat foreign key
+        $this->forge->addForeignKey('po_id', 'perusahaanotobus', 'po_id', 'CASCADE', 'CASCADE');
 
             //membuat tabel bus
             $this->forge->createTable('bus',true);

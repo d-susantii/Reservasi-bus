@@ -3,15 +3,15 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="width=device-width, initial-scale=1.0," name="viewport">
 
   <title>Reservasi Bus Pariwisata</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?= base_url() ?>/assets2/img/favicon.png" rel="icon">
-  <link href="<?= base_url() ?>/assets2/img/apple-touch-icon.png" rel="apple-touch-icon">
+   <!-- <link href="<?= base_url() ?>/assets2/img/favicon.png" rel="icon"> -->
+  <!-- <link href="<?= base_url() ?>/assets2/img/apple-touch-icon.png" rel="apple-touch-icon">  -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -93,7 +93,7 @@
           </div> -->
         </div>
         <div class="col-lg-5 order-1 order-lg-2 3-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="<?= base_url() ?>/assets2/img/3-img.jpeg" class="img-fluid rounded" alt=""> 
+          <img src="<?= base_url() ?>/assets2/img/awal.png" class="img-fluid rounded" alt=""> 
         </div>
       </div>
     </div>
@@ -315,10 +315,235 @@
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
-
-
         </div>
+
+        <!-- CARD -->
+                                                    
+                  <!-- <div class="card h-100">
+                    <div class="card-body">
+                      <h5 class="card-title">Medium Bus</h5>
+                      <h6 class="card-subtitle text-muted">Support card subtitle</h6>
+                      <img
+                        class="img-fluid d-flex mx-auto my-4"
+                        src="<?= base_url() ?>/assets2/img/bus/2.jpeg"
+                        alt="Card image cap"
+                      />
+                      <div class="main-div">
+                        <h1>Div Utama</h1>
+                        <div class="hidden-div">
+                            <p>Div Tersembunyi</p>
+                        </div>
+                      </div>
+
+                      <p class="card-text">Bear claw sesame snaps gummies chocolate.</p>
+                      <a href="javascript:void(0);" class="card-link">Card link</a>
+                      <a href="javascript:void(0);" class="card-link">Another link</a>
+                    </div> -->
+                  <!-- </div> -->
+
+     <!-- Trigger -->
+
+     <!-- <div class="fusion-layout-column fusion_builder_column fusion-builder-column-4 fusion_builder_column_1_1 1_1 fusion-flex-column rent-box xs-padding-zero" style="--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:1.92%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:1.92%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;">
+                                                            <div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+                                                                <div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+                                                                    <div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-3 fusion_builder_column_inner_2_5 2_5 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-position:center center;--awb-bg-size:cover;--awb-width-large:40%;--awb-margin-top-large:0px;--awb-spacing-right-large:4.8%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:4.8%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;" style="color: #1e6ad6;">
+                                                                        <div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-column">
+                                                                            <div>
+                                                                                <h3 class="title-heading-left"  style="color:black">Big Bus</h3>
+                                                                            </div>
+                                                                            <div class="fusion-image-element " style="text-align:center;--awb-caption-title-size:var(--h2_typography-font-size);--awb-caption-title-transform:var(--h2_typography-text-transform);--awb-caption-title-line-height:var(--h2_typography-line-height);--awb-caption-title-letter-spacing:var(--h2_typography-letter-spacing);">
+                                                                            <span class=" fusion-imageframe imageframe-none imageframe-3 hover-type-none">
+                                                                              <img decoding="async" width="400" height="247" alt="sewa big bus" title="sewa big bus" src="https://salsawisata.b-cdn.net/wp-content/uploads/2021/02/sewa-big-bus-e1614779392172.png.webp" data-orig-src="https://salsawisata.b-cdn.net/wp-content/uploads/2021/02/sewa-big-bus-e1614779392172.png.webp" class="img-responsive wp-image-687 lazyloaded">
+                                                                            </span>
+                                                                          </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-4 fusion_builder_column_inner_3_5 3_5 fusion-flex-column fusion-flex-align-self-stretch" style="--awb-bg-size:cover;--awb-width-large:60%;--awb-margin-top-large:0px;--awb-spacing-right-large:3.2%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:3.2%;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:1.92%;--awb-spacing-left-medium:1.92%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;">
+                                                                        <div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column">
+                                                                            <div class="fusion-title title fusion-title-5 fusion-sep-none fusion-title-text fusion-title-size-paragraph rent-start-price" style="background-color:#0075C9">
+                                                                                <p class="title-heading-left title-heading-tag" style="color:#ffffff">Harga Mulai : Rp 1.500.000 / 1 hari</p>
+                                                                            </div>
+                                                                            <div class="fusion-tabs fusion-tabs-2 clean vertical-tabs icon-position-left mobile-mode-carousel mobile-sticky-tabs" style="--awb-title-border-radius-top-left:0px;--awb-title-border-radius-top-right:0px;--awb-title-border-radius-bottom-right:0px;--awb-title-border-radius-bottom-left:0px;--awb-alignment:center;--awb-inactive-color:#f9f9fb;--awb-background-color:#ffffff;--awb-border-color:#e2e2e2;--awb-active-border-color:#1e6ad6;">
+                                                                            <div class="nav">
+                                                                                    <ul class="nav-tabs" role="tablist">
+                                                                                        <li class="active" role="presentation">
+                                                                                            <a class="chi-button-group -fluid"id="fusion-tab-spesifikasi" href="#njajal">
+                                                                                                <div class="fusion-tab-heading" style="color: black;">Spesifikasi</div>
+                                                                                            </a>
+                                                                                        </li>
+                                                                                        <li role="presentation">
+                                                                                            <a class="tab-link" data-toggle="tab" role="tab" aria-controls="tab-014b3d042c161d187d6" aria-selected="false" tabindex="-1" id="fusion-tab-detailharga" href="#tab-014b3d042c161d187d6">
+                                                                                                <div class="fusion-tab-heading" style="color: black;">Detail harga</div>
+                                                                                            </a>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <div class="tab-content">
+                                                                                    
+                                                                                    <div class="tab-pane fade fusion-clearfix" role="tabpanel" tabindex="0" aria-labelledby="fusion-tab-detailharga" id="tab-014b3d042c161d187d6" style="min-height: 131.5px;" style="color:black">
+                                                                                    Transfer In / Out / Dinner<p></p>
+                                                                                        <ul>
+                                                                                            <li >Rp1.500.000 / One Day</li>
+                                                                                        </ul>
+                                                                                        <p>City Tour</p>
+                                                                                        <ul>
+                                                                                            <li>Rp2.750.000 / Day</li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div style="text-align:center;" color="background-color:#0075C9">
+                                                                                  <a class="chi-button-group -fluid" style="color:black"  href="/reservasi">
+                                                                                    <span class="fusion-button-text" >Sewa sekarang</span>
+                                                                                    <i class="fa-angle-right fas button-icon-right" class="-bg--primary" aria-hidden="true"></i>
+                                                                                  </a>
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+              </div>  -->
+              <!-- <div class="row">
+                    <div class="col-md-6 col-lg-4 pb-30 feature-card-item">
+                        <div class="feature-card">
+                            <div class="feature-card-thumb feature-thumb-frame-1">
+                                <img src="https://salsawisata.b-cdn.net/wp-content/uploads/2021/02/sewa-big-bus-e1614779392172.png.webp" alt="feature">
+                            </div>
+                            <div class="feature-card-content">
+                                <h3><a style="color: black;">JenisBus</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy eirmod tempor in vidunt ut labore et dolore magna.</p>
+                                <p> Detail</p>
+                                <a class="btn main-btn main-btn-border">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 pb-30 feature-card-item">
+                        <div class="feature-card">
+                            <div class="feature-card-thumb feature-thumb-frame-1">
+                                <img src="https://salsawisata.b-cdn.net/wp-content/uploads/2021/02/sewa-big-bus-e1614779392172.png.webp" alt="feature">
+                            </div>
+                            <div class="feature-card-content">
+                                <h3><a style="color: black;">JenisBus</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy eirmod tempor in vidunt ut labore et dolore magna.</p>
+                                <p>detail</p>
+                                <a  class="btn main-btn main-btn-border">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offset-md-3 offset-lg-0 col-md-6 col-lg-4 pb-30 feature-card-item">
+                        <div class="feature-card">
+                            <div class="feature-card-thumb feature-thumb-frame-1">
+                                <img src="https://salsawisata.b-cdn.net/wp-content/uploads/2021/02/sewa-big-bus-e1614779392172.png.webp" alt="feature">
+                            </div>
+                            <div class="feature-card-content">
+                                <h3><a style="color: black;">JenisBus</a></h3>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadip scing elitr, sed diam nonumy eirmod tempor in vidunt ut labore et dolore magna.</p>
+                                <p> detail</p>
+                                <a class="btn main-btn main-btn-border">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+              
+                                                        <!-- <div class="fusion-fullwidth fullwidth-box fusion-builder-row-4 fusion-flex-container sm-background-contain nonhundred-percent-fullwidth non-hundred-percent-height-scrolling" style="--awb-background-position:right top;--awb-border-radius-top-left:0px;--awb-border-radius-top-right:0px;--awb-border-radius-bottom-right:0px;--awb-border-radius-bottom-left:0px;--awb-padding-top:3em;--awb-padding-bottom:3em;--awb-background-color:#f5f5f5;"
+                                                    id="form-sewa-mobil">
+                                                    <div class="fusion-builder-row fusion-row fusion-flex-align-items-flex-start" style="max-width:104%;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+                                                        <div class="fusion-layout-column fusion_builder_column fusion-builder-column-10 fusion_builder_column_5_6 5_6 fusion-flex-column fusion-flex-align-self-center row-center card" style="--awb-bg-size:cover;--awb-width-large:83.333333333333%;--awb-margin-top-large:0px;--awb-spacing-right-large:2.304%;--awb-margin-bottom-large:20px;--awb-spacing-left-large:2.304%;--awb-width-medium:83.333333333333%;--awb-order-medium:0;--awb-spacing-right-medium:2.304%;--awb-spacing-left-medium:2.304%;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;">
+                                                            <div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-row">
+                                                                <div class="fusion-title title fusion-title-16 fusion-sep-none fusion-title-text fusion-title-size-three">
+                                                                    <h3 class="title-heading-left" style="margin:0;">Form Sewa Bus</h3>
+                                                                </div>
+                                                                <div class="fusion-title title fusion-title-17 fusion-sep-none fusion-title-text fusion-title-size-three title-nama-wisata">
+                                                                    <h3 class="title-heading-left" style="margin:0;"><strong style="display: none;">Saya isikan di catatan</strong></h3>
+                                                                </div>
+                                                                <div class="fusion-builder-row fusion-builder-row-inner fusion-row fusion-flex-align-items-flex-start" style="width:104% !important;max-width:104% !important;margin-left: calc(-4% / 2 );margin-right: calc(-4% / 2 );">
+                                                                    <div class="fusion-layout-column fusion_builder_column_inner fusion-builder-nested-column-15 fusion_builder_column_inner_1_1 1_1 fusion-flex-column" style="--awb-padding-right:0px;--awb-padding-left:0px;--awb-bg-size:cover;--awb-width-large:100%;--awb-margin-top-large:0px;--awb-spacing-right-large:0;--awb-margin-bottom-large:20px;--awb-spacing-left-large:0;--awb-width-medium:100%;--awb-order-medium:0;--awb-spacing-right-medium:0;--awb-spacing-left-medium:0;--awb-width-small:100%;--awb-order-small:0;--awb-spacing-right-small:1.92%;--awb-spacing-left-small:1.92%;">
+                                                                        <div class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-flex-start fusion-content-layout-row">
+                                                                            <div class="wpcf7 no-js" id="wpcf7-f1796-p31118-o1" lang="en-US" dir="ltr">
+                                                                                <div class="screen-reader-response">
+                                                                                    <p role="status" aria-live="polite" aria-atomic="true"></p>
+                                                                                    <ul></ul>
+                                                                                </div>
+                                                                                <form action="/sewa-bus-pariwisata/madiun/#wpcf7-f1796-p31118-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                                                                    <div style="display: none;">
+                                                                                        <input type="hidden" name="_wpcf7" value="1796" />
+                                                                                        <input type="hidden" name="_wpcf7_version" value="5.7.4" />
+                                                                                        <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                                                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1796-p31118-o1" />
+                                                                                        <input type="hidden" name="_wpcf7_container_post" value="31118" />
+                                                                                        <input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+                                                                                        <input type="hidden" name="_wpcf7_recaptcha_response" value="" />
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <input class="wpcf7-form-control wpcf7-hidden" id="kota-sewa" value="" type="hidden" name="kota" />
+                                                                                        <p><label for="sewa-form-jogja-nama">Nama lengkap</label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="nama"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="sewa-form-jogja-nama" aria-required="true" aria-invalid="false" value="" type="text" name="nama" /></span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-wa">Wa / Telp </label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="wa"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" id="sewa-form-jogja-wa" aria-required="true" aria-invalid="false" value="" type="tel" name="wa" /></span><br
+                                                                                            />
+                                                                                            <small id="sewa-form-jogja-wa" class="form-text text-muted">Pastikan No Wa / Telp aktif karena akan digunakan untuk konfirmasi pesanan anda.</small>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-armada">Armada / Mobil</label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="armada"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" id="pilihan-paket-wisata" aria-required="true" aria-invalid="false" name="armada"><option value="Saya isikan di catatan">Saya isikan di catatan</option></select></span><br
+                                                                                            />
+                                                                                            <small id="sewa-form-jogja-armada" class="form-text text-muted">silahkan tambahkan catatan jika pilihan armada yang anda inginkan tidak ada.</small>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-lama-sewa">Lama sewa</label>
+                                                                                        </p>
+                                                                                        <div class="d-flex flex-align-items-center">
+                                                                                            <div class="flex-col-auto" style="max-width:10em;">
+                                                                                                <p><span class="wpcf7-form-control-wrap" data-name="kelipatan-lama-sewa"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" min="1" aria-required="true" aria-invalid="false" value="1" type="number" name="kelipatan-lama-sewa" /></span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="flex-col-auto" style="min-width:2em; text-align:center;">
+                                                                                                <p>X
+                                                                                                </p>
+                                                                                            </div>
+                                                                                            <div class="flex-col">
+                                                                                                <p><span class="wpcf7-form-control-wrap" data-name="lama-sewa"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" id="sewa-form-jogja-lama-sewa" aria-required="true" aria-invalid="false" name="lama-sewa"><option value="12 jam">12 jam</option><option value="24 jam">24 jam</option></select></span>
+                                                                                                </p>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-tipe-sewa">Tipe sewa</label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="tipe-sewa"><select class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" id="sewa-form-jogja-tipe-sewa" aria-required="true" aria-invalid="false" name="tipe-sewa"><option value="Mobil + Driver + BBM ( Khusus non bus )">Mobil + Driver + BBM ( Khusus non bus )</option><option value="Transfer In / Out / Dinner ( Khusus bus ) satu hari">Transfer In / Out / Dinner ( Khusus bus ) satu hari</option><option value="City Tour ( Khusus bus )">City Tour ( Khusus bus )</option><option value="saya isikan di catatan">saya isikan di catatan</option></select></span><br
+                                                                                            />
+                                                                                            <small id="sewa-form-jogja-armada" class="form-text text-muted">Untuk bus driver dan bbm include.</small>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-tanggal-sewa">Tanggal sewa</label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="tanggal-sewa"><input class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date" id="sewa-form-jogja-tanggal-sewa" aria-required="true" aria-invalid="false" value="" type="date" name="tanggal-sewa" /></span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><label for="sewa-form-jogja-catatan">Catatan</label><br />
+                                                                                            <span class="wpcf7-form-control-wrap" data-name="catatan"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" id="sewa-form-jogja-catatan" aria-invalid="false" name="catatan"></textarea></span>
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="form-group">
+                                                                                        <p><input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Sewa Bus" />
+                                                                                        </p>
+                                                                                    </div>
+                                                                                    <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                                                </form>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>           -->
+                
 
       </div>
     </section>
@@ -392,8 +617,10 @@
   <script src="<?= base_url() ?>/assets2/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="<?= base_url() ?>/assets2/vendor/php-email-form/validate.js"></script>
 
+
   <!-- Template Main JS File -->
   <script src="<?= base_url() ?>/assets2/js/main.js"></script>
+
 
 </body>
 

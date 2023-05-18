@@ -16,6 +16,21 @@
                     </div>
                     <div class="card-body">
                       <form>
+                      <div class="row mb-3">
+                          <label class="col-sm-2 form-label" for="basic-icon-default-kategori">Nama Perusahaan Otobus (PO)</label>
+                          <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                              <span id="basic-icon-default-kategori" class="input-group-text">
+                              <i class='bx bx-bus'></i>
+                              </span>
+                              <select class="select2 form-select" id="dashboard-kategori" name="dashboard-kategori" placeholder="Perusahaan Otobus (PO)" autofocus>
+                            <option disabled selected value="Perusahaan Otobus">--Perusahaan Otobus--</option>
+                              <option value="PO. Trans Saba">PO. Trans Saba</option>
+                              <option value="PO. Putra Bahagia Sejahtera">PO. Putra Bahagia Sejahtera</option>
+                          </select>
+                            </div>
+                          </div>
+                        </div>
                         <div class="row mb-3">
                           <label class="col-sm-2 col-form-label" for="basic-icon-default-dari">Tujuan Awal</label>
                           <div class="col-sm-10">
@@ -23,16 +38,15 @@
                               <span id="basic-icon-default-dari2" class="input-group-text">
                               <i class='bx bx-map-pin'></i>
                               </span>
-                              <input
-                                type="text"
-                                class="form-control"
-                                id="basic-icon-default-dari2"
-                                placeholder="Pilih Tujuan Awal"
-                                aria-describedby="basic-icon-default-dari2"
-                              />
+                              
+                              
+                                <select class="form-control" name="provinsi" id="provinsi">
+                                    <option>Pilih</option>
+                                </select>
+                              
                             </div>
                           </div>
-                        </div>
+                        </div>       
                         <div class="row mb-3">
                           <label class="col-sm-2 col-form-label" for="basic-icon-default-ke">Tujuan Akhir</label>
                           <div class="col-sm-10">
@@ -40,13 +54,10 @@
                               <span id="basic-icon-default-ke2" class="input-group-text">
                               <i class='bx bx-map-pin'></i>
                               </span>
-                              <input
-                                type="text"
-                                id="basic-icon-default-ke2"
-                                class="form-control"
-                                placeholder="Pilih Tujuan Akhir"
-                                aria-describedby="basic-icon-default-ke2"
-                              />
+                              
+                              <select class="form-control" name="kota" id="kota">
+                                    <option>Pilih</option>
+                                </select>
                             </div>
                           </div>
                         </div>
@@ -62,11 +73,10 @@
                                 placeholder="Pilih Tanggal Keberangkatan"
                                 aria-describedby="basic-icon-default-keberangkatan2"
                               />
-                              <!-- <span id="basic-icon-default-email2" class="input-group-text">@example.com</span> -->
                             </div>
-                            <!-- <div class="form-text">You can use letters, numbers & periods</div> -->
                           </div>
                         </div>
+                        
                         <div class="row mb-3">
                           <label class="col-sm-2 form-label" for="basic-icon-default-pulang">Tanggal Pulang</label>
                           <div class="col-sm-10">
@@ -122,15 +132,15 @@
                           <div class="col-sm-10">
                             <div class="input-group input-group-merge">
                               <span id="basic-icon-default-penjemputan" class="input-group-text">
-                              <i class='bx bx-bus'></i>
+                              <i class='bx bx-map-pin'></i>
                               </span>
-                              <input
-                                type="text"
-                                id="basic-icon-default-penjemputan2"
-                                class="form-control"
-                                placeholder="Masukkan Lokasi Penjemputan"
-                                aria-describedby="basic-icon-default-penjemputan"
-                              ></input>
+                              <select class="select2 form-select" id="dashboard-penjemputan" name="dashboard-penjemputan" placeholder="Lokasi Penjemputan" autofocus>
+                            <option disabled selected value="Lokasi Penjemputan">--Lokasi Penjemputan--</option>
+                              <option value="Magetan">Magetan</option>
+                              <option value="Ngawi">Ngawi</option>
+                              <option value="Ponorogo">Ponorogo</option>
+                              <option value="Madiun">Madiun</option>
+                          </select>
                             </div>
                           </div>
                         </div>
@@ -151,9 +161,27 @@
                             </div>
                           </div>
                         </div>
+                        
+                        <div class="row mb-3">
+                          <label class="col-sm-2 form-label" for="basic-icon-default-penjemputan">Total Harga</label>
+                          <div class="col-sm-10">
+                            <div class="input-group input-group-merge">
+                              <span id="basic-icon-default-pesan" class="input-group-text">
+                              <i class='bx bx-list-check'></i>
+                              </span>
+                              <input
+                                type="text"
+                                id="basic-icon-default-pesan2"
+                                class="form-control"
+                                aria-describedby="basic-icon-default-pesan"
+                              ></input>
+                            </div>
+                          </div>
+                        </div>
                         <div class="row justify-content-end">
                           <div class="col-sm-10">
                             <button type="submit" class="btn btn-primary">Reservasi</button>
+                            <a href="<?= base_url('pembayaran') ?>" class="banner-two__link-overlay"></a> 
                           </div>
                         </div>
                       </form>
@@ -163,3 +191,68 @@
               </div>
             </div>
             <!-- / Content -->
+            
+<!-- Javascript API Lokasi -->
+     <script>
+        fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/provinces.json`)
+            .then((response) => response.json())
+            .then((provinces) => {
+                var data = provinces;
+                var tampung = `<option>Pilih</option>`;
+                data.forEach((element) => {
+                    tampung += `<option data-prov="${element.id}" value="${element.name}">${element.name}</option>`;
+                });
+                document.getElementById("provinsi").innerHTML = tampung;
+            });
+    </script>
+    <script>
+        const selectProvinsi = document.getElementById('provinsi');
+        const selectKota = document.getElementById('kota');
+
+        selectProvinsi.addEventListener('change', (e) => {
+            var provinsi = e.target.options[e.target.selectedIndex].dataset.prov;
+            fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/regencies/${provinsi}.json`)
+                .then((response) => response.json())
+                .then((regencies) => {
+                    var data = regencies;
+                    var tampung = `<option>Pilih</option>`;
+                    document.getElementById('kota').innerHTML = '<option>Pilih</option>';
+                    // document.getElementById('kecamatan').innerHTML = '<option>Pilih</option>';
+                    // document.getElementById('kelurahan').innerHTML = '<option>Pilih</option>';
+                    data.forEach((element) => {
+                        tampung += `<option data-prov="${element.id}" value="${element.name}">${element.name}</option>`;
+                    });
+                    document.getElementById("kota").innerHTML = tampung;
+                });
+        });
+
+        selectKota.addEventListener('change', (e) => {
+            var kota = e.target.options[e.target.selectedIndex].dataset.prov;
+            fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/districts/${kota}.json`)
+                .then((response) => response.json())
+                .then((districts) => {
+                    var data = districts;
+                    var tampung = `<option>Pilih</option>`;
+                    // document.getElementById('kecamatan').innerHTML = '<option>Pilih</option>';
+                    // document.getElementById('kelurahan').innerHTML = '<option>Pilih</option>';
+                    data.forEach((element) => {
+                        tampung += `<option data-prov="${element.id}" value="${element.name}">${element.name}</option>`;
+                    });
+                    // document.getElementById("kecamatan").innerHTML = tampung;
+                });
+        });
+        // selectKecamatan.addEventListener('change', (e) => {
+        //     var kecamatan = e.target.options[e.target.selectedIndex].dataset.prov;
+        //     fetch(`https://kanglerian.github.io/api-wilayah-indonesia/api/villages/${kecamatan}.json`)
+        //         .then((response) => response.json())
+        //         .then((villages) => {
+        //             var data = villages;
+        //             var tampung = `<option>Pilih</option>`;
+        //             document.getElementById('kelurahan').innerHTML = '<option>Pilih</option>';
+        //             data.forEach((element) => {
+        //                 tampung += `<option data-prov="${element.id}" value="${element.name}">${element.name}</option>`;
+        //             });
+        //             document.getElementById("kelurahan").innerHTML = tampung;
+        //         });
+        // });
+    </script> 
